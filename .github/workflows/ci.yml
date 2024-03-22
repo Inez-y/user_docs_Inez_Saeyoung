@@ -26,7 +26,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --forcename: ci 
+      - run: mkdocs gh-deploy --forcename: ci.yml
 on:
   push:
     branches:
