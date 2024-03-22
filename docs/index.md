@@ -1,6 +1,6 @@
 # Welcoming page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_Saeyoung/).
 
 ## Code Annotation Examples
 
