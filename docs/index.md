@@ -2,6 +2,10 @@
 
 visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_Saeyoung/).
 
+# Markdown basics
+
+https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+
 ## Code Annotation Examples
 
 ### Codeblocks
