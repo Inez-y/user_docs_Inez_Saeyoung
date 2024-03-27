@@ -13,50 +13,50 @@ Be careful. Deletion through the command line is permanent. Deleted files can no
 1. Confirm where you at with `pwd` \
    Confirming your current location in the terminal is an always good start. You can check your location by typing command line `pwd` in your terminal screen.
 
-```
-example code and result here
-```
+   ```
+   example code and result here
+   ```
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
 
 2. See what files or directories in the current level with `ls` \
    Check what you have in the current level by typing command line `ls` in your terminal screen.
 
-```
-example code and result here
-```
+   ```
+   example code and result here
+   ```
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
 
 3. Delete the file with `rm` \
    `rm` stands for remove. After `rm` command line you can put file name including extension or absolute path.
 
-```
-example code and result here
+   ```
+   example code and result here
 
-rm test_file.txt
-```
+   rm test_file.txt
+   ```
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
 
 4. Delete the folder with `rmdir` \
    `rmdir` stands for remove directory.
 
-```
-example code and result here
+   ```
+   example code and result here
 
-rmdir test_folder
-```
+   rmdir test_folder
+   ```
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
 
 ## Confirm the deletion
 
@@ -64,14 +64,14 @@ You can check whether the deletion is executed or not via terminal or via Graphi
 
 1. Type `ls` at the parent directory.
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
 
 Or
 
 2. Go to the parent folder in the graphic user interface screen.
 
-```
-Image here
-```
+   ```
+   Image here
+   ```
