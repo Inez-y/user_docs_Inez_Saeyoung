@@ -1,1 +1,3 @@
 - Absolute path
+- GUI
+- Parent folder
