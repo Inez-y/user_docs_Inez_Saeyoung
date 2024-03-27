@@ -1,9 +1,10 @@
 site_name: Terminal Start Guide
 theme:
-  name: material
+  name: mkdocs
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.path
     - toc.integrate
     - navigation.top
     - search.suggest
