@@ -1,4 +1,4 @@
-site_name: hello
+site_name: Terminal Start Guide
 theme:
   name: material
   features:
@@ -26,4 +26,4 @@ theme:
       primary: teal
       accent: lime
 
-copyright: 2024 Saeyoung and Inez @ Comm class
+copyright: 2024 Saeyoung and Inez @ Comm 2216
