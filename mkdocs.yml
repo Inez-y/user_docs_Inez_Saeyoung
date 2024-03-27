@@ -1,6 +1,14 @@
 site_name: Terminal Start Guide
+nav:
+  - Home: "index.md"
+  - Set up: "setup.md"
+  - Creation: "creation.md"
+  - Navigation: "navigation.md"
+  - Deletion: "deletion.md"
+  - Troubleshooting: "troubleshooting.md"
+  - Glossary: "glossary.md"
 theme:
-  name: mkdocs
+  name: material
   features:
     - navigation.tabs
     - navigation.sections
