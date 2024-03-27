@@ -5,6 +5,7 @@ visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_S
 # Markdown basics
 
 https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+https://www.youtube.com/watch?v=Q-YA_dA8C20
 
 ## Code Annotation Examples
 
@@ -22,6 +23,10 @@ def testblock()
 
 ```
 python3 -m venv venv
+source venv/bin/activate
+pip --version
+pip install mkdocs-material
+mkdocs new .
 mkdocs serve
 source venv/bin/activate
 ```
