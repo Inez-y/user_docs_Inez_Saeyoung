@@ -42,4 +42,6 @@ print("source venv/bin/activate")
 
 #### hightlight
 
-:smile:
+1. add image
+2. deploy error
+3. welcoming page
