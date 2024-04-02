@@ -1,49 +1,28 @@
-# Welcoming page
-
 visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_Saeyoung/).
 
-creation and glossary doesn't work
+# Terminal Basics for New Mac Users
 
-# Markdown basics
+## Purpose
 
-https://squidfunk.github.io/mkdocs-material/publishing-your-site/
-https://www.youtube.com/watch?v=Q-YA_dA8C20
+This guide aims to introduce new Mac users with no prior computer background to the Terminal application. Terminal allows users to navigate the file system, create, delete files, and troubleshoot common issues.
 
-## Code Annotation Examples
+## Intended Audience
 
-### Codeblocks
+These instructions are aimed at new Mac users who are unfamiliar with using the Terminal application.
 
-some `code1` goes here
+## Prerequisites
 
-### plain code block:
+Before following these instructions, users should have:
 
-```py
-def testblock()
-```
+A Mac computer
+Basic familiarity with the Mac operating system
 
-#### another code block
+## Typographical Conventions
 
-```
-python3 -m venv venv
-source venv/bin/activate
-pip --version
-pip install mkdocs-material
-mkdocs new .
-mkdocs serve
-source venv/bin/activate
-```
+Commands to be entered into the Terminal will be written in monospace.
+User input will be denoted by <user_input>.
 
-#### another code block aaa:
+## Note: Additional resources or tips to enhance understanding.
 
-```
-def test():
-print("python3 -m venv venv")
-print("mkdocs serve")
-print("source venv/bin/activate")
-```
-
-#### hightlight
-
-1. add image
-2. deploy error
-3. welcoming page
+Caution: Actions that could potentially cause issues or data loss.
+Warning: Actions that could have serious consequences if not followed correctly.
