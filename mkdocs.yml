@@ -3,11 +3,10 @@ nav:
   - Home: "index.md"
   - Set up: "setup.md"
   - Creation: "creation1.md"
-  - Navigation: "navigation1.md"
+  - Navigation: "navi.md"
   - Deletion: "deletion.md"
   - Troubleshooting: "troubleshooting.md"
   - Glossary: "glossaryterm.md"
-  # - Glossary: "glossary1.md"
 theme:
   name: material
   features:
