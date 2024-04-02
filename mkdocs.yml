@@ -2,11 +2,13 @@ site_name: Terminal Start Guide
 nav:
   - Home: "index.md"
   - Set up: "setup.md"
-  - Creation: "creation.md"
+  # - Creation: "creation.md"
+  - Creation: "creation1.md"
   - Navigation: "navigation.md"
   - Deletion: "deletion.md"
   - Troubleshooting: "troubleshooting.md"
-  - Glossary: "glossary.md"
+  # - Glossary: "glossary.md"
+  - Glossary: "glossary1.md"
 theme:
   name: material
   features:
