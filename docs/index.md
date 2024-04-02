@@ -2,6 +2,8 @@
 
 visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_Saeyoung/).
 
+creation and glossary doesn't work
+
 # Markdown basics
 
 https://squidfunk.github.io/mkdocs-material/publishing-your-site/

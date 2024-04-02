@@ -1,4 +1,6 @@
-## How to Make a File with Command Line
+# Navigating the Terminal (macOS) for Beginners
+
+## How to Create a File with Command Line
 
 ### Step 1: Introducing File Creation Command
 
