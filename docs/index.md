@@ -20,7 +20,6 @@ Basic familiarity with the Mac operating system
 ## Typographical Conventions
 
 Commands to be entered into the Terminal will be written in monospace.
-User input will be denoted by <user_input>.
 
 ## Note: Additional resources or tips to enhance understanding.
 
