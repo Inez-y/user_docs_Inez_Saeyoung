@@ -56,4 +56,4 @@ You can check whether the deletion is executed or not via terminal or via Graphi
 
 ## Conclusion
 
-Now you can navigate, create, delete a file or directory on your computer through the command line on the terminal! :partying_face:
+Now you can navigate, create, and delete a file or directory on your computer through the command line on the terminal! :partying_face: This is very basic jobs you can do through the command line. You can explore further on [Apple macOS command line](https://ss64.com/mac/)

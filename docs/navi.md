@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will cover how to navigate files and directories in your computer through the terminal.
+This section will cover how to check your current location, how to see the list of files and directories in your computer through the terminal.
 
 ### Step 1: Determining Your Current Location
 
@@ -36,6 +36,4 @@ cd Documents
 
 ## Conclusion
 
-By the end of this section, you can perform following jobs:
-- Confirm your current working directory
-- Move to your desired directory
+Now you can navigate your location on your computer through the command line on the terminal! :partying_face:
