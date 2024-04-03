@@ -27,9 +27,8 @@ Creative Cloud Files	  Public
 Desktop			          PycharmProjects
 Documents		          ScreenPal
 Downloads		          VSCodeProjects
-IntelliJProjects	      test_file.txt
-Library			          Movies
-Music			          package-lock.json
+Library	                  test_file.txt
+Movies                    Music
 ```
 
 ### Step 3: Delete the file with `rm`
