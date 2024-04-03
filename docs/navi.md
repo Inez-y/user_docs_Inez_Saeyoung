@@ -1,10 +1,8 @@
 # How to navigate directory with Command Line on the Terminal
 
-## How to Navigate Directories with Command Line
-
 ## Overview
 
-This section will cover how to delete files and directories in your computer through the terminal.
+This section will cover how to navigate files and directories in your computer through the terminal.
 
 ### Step 1: Determining Your Current Location
 
