@@ -4,38 +4,40 @@
 
 This section will cover how to create a file and directory on your computer through the terminal.
 
-### Step 1: Introducing File Creation Command
+## Create
 
-To create a file, you can use the `touch` command followed by the filename:
+1. Introducing File Creation Command
 
-```
-touch [file_name]
-```
+    To create a file, you can use the `touch` command followed by the filename:
 
-To create a directory, you can use the `mkdir` command followed by the directory name:
+    ```
+    touch [file_name]
+    ```
 
-```
-mkdir [directory_name]
-```
+    To create a directory, you can use the `mkdir` command followed by the directory name:
 
-### Step 2: Common Mistakes and Cautions
+    ```
+    mkdir [directory_name]
+    ```
 
-Double-check the filename to avoid errors.
-Be cautious not to overwrite existing files unintentionally.
+2. Common Mistakes and Cautions
 
-### Step 3: Example of File and Directory Creation
+    Double-check the filename to avoid errors.
+    Be cautious not to overwrite existing files unintentionally.
 
-To create a file named "example.txt," type:
+3. Example of File and Directory Creation
 
-```
-touch example.txt
-```
+    To create a file named "example.txt," type:
 
-To create a directory named "test_documents" type:
+    ```
+    touch example.txt
+    ```
 
-```
-mkdir test_documents
-```
+    To create a directory named "test_documents" type:
+
+    ```
+    mkdir test_documents
+    ```
 
 ## Conclusion
 

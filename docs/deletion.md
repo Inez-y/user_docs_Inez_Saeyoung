@@ -4,55 +4,57 @@
 
 This section will cover how to delete files and directories in your computer through the terminal.
 
-## Before start
+!! warning
 
-Be careful. Deletion through the command line is permanent. Deleted files can not be restored.
+    Be careful. Deletion through the command line is permanent. Deleted files can not be restored.
 
-### Step 1: Check where is your current location `pwd`
+## Delete
 
-Confirming your current location in the terminal is an always good start. You can check your location by typing command line `pwd` in your terminal screen. The terminal will show you similar result with below.
+1. Check where is your current location `pwd`
 
-```
-/Users/[PC_main_directory]
-```
+   Confirming your current location in the terminal is an always good start. You can check your location by typing command line `pwd` in your terminal screen. The terminal will show you similar result with below.
 
-### Step 2: See the list of files or directories in the current level `ls`
+   ```
+   /Users/[PC_main_directory]
+   ```
 
-Check what you have in the current level by typing command line `ls` in your terminal screen. The terminal will show you similar result with below.
+2. See the list of files or directories in the current level `ls`
 
-```
-Applications		      OneDrive
-CLionProjects		      Pictures
-Creative Cloud Files	  Public
-Desktop			          PycharmProjects
-Documents		          ScreenPal
-Downloads		          VSCodeProjects
-Library	                  test_file.txt
-Movies                    Music
-```
+   Check what you have in the current level by typing command line `ls` in your terminal screen. The terminal will show you similar result with below.
 
-### Step 3: Delete the file with `rm`
+   ```
+   Applications		      OneDrive
+   CLionProjects		      Pictures
+   Creative Cloud Files	  Public
+   Desktop			          PycharmProjects
+   Documents		          ScreenPal
+   Downloads		          VSCodeProjects
+   Library	                  test_file.txt
+   Movies                    Music
+   ```
 
-`rm` stands for remove. After `rm` command line you can put file name including extension or absolute path.
+3. Delete the file with `rm`
 
-```
-rm test_file.txt
-```
+   `rm` stands for remove. After `rm` command line you can put file name including extension or absolute path.
 
-### Step 4: Delete the folder with `rmdir`
+   ```
+   rm test_file.txt
+   ```
 
-`rmdir` stands for remove directory.
+4. Delete the folder with `rmdir`
 
-```
-rmdir test_folder
-```
+   `rmdir` stands for remove directory.
 
-## Confirm the deletion
+   ```
+   rmdir test_folder
+   ```
 
-You can check whether the deletion is executed or not via terminal or via Graphic User Interface(GUI) at your computer.
+5. Confirm the deletion
 
-1. Type `ls` at the parent directory.
-2. Go to the directory at your computer screen through Finder.
+   You can check whether the deletion is executed or not via terminal or via Graphic User Interface(GUI) at your computer.
+
+   - Type `ls` at the parent directory.
+   - Go to the directory at your computer screen through Finder.
 
 ## Conclusion
 

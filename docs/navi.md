@@ -4,35 +4,37 @@
 
 This section will cover how to check your current location, how to see the list of files and directories in your computer through the terminal.
 
-### Step 1: Determining Your Current Location
+## Navigating
 
-To determine your current directory, use the `pwd` (print working directory) command:
+1. Determining Your Current Location
 
-`bash`
-`pwd`
+   To determine your current directory, use the `pwd` (print working directory) command:
 
-### Step 2: Introducing Navigation Commands
+   `bash`
+   `pwd`
 
-To navigate folder also known as directories, you will primarily use the cd (change directory) command. Here is how it works:
+2. Introducing Navigation Commands
 
-```
-cd [folder_name]
-```
+   To navigate folder also known as directories, you will primarily use the cd (change directory) command. Here is how it works:
 
-Replace [directory_name] with the name of the directory you want to navigate to.
+   ```
+   cd [folder_name]
+   ```
 
-### Step 3: Common Mistakes and Cautions
+   Replace [directory_name] with the name of the directory you want to navigate to.
 
-Ensure you type directory names correctly, including proper capitalization.
-Be cautious when using relative paths (e.g., cd .. to move up one directory), as it can lead to unintended movements.
+!! note
 
-### Step 4: Examples of Navigation
+    Ensure you type directory names correctly, including proper capitalization.
+    Be cautious when using relative paths (e.g., cd .. to move up one directory), as it can lead to unintended movements.
 
-To move into a directory named "Documents," type:
+3. Examples of Navigation
 
-```
-cd Documents
-```
+   To move into a directory named "Documents," type:
+
+   ```
+   cd Documents
+   ```
 
 ## Conclusion
 
