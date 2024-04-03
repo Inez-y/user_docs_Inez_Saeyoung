@@ -1,60 +1,9 @@
 # Common Troubleshooting in Terminal
 
-## Wrong Path
-
-**Description:**
-
-Wrong path errors occur when trying to access a directory or execute a command from an incorrect location.
-
-**Solution:**
-
-- Double-check the path or command syntax for accuracy.
-- Use the `pwd` command to verify your current directory.
-- Navigate to the correct directory using the `cd` command before executing commands or accessing files.
-
-## Spelling Check
-
-**Description:**
-
-Spelling errors can lead to command not found or file not found errors in the terminal.
-
-**Solution:**
-
-- Double-check the spelling of commands, filenames, and directory names.
-- Use auto-completion features (press Tab key) to avoid spelling mistakes.
-- If unsure of a command or filename spelling, use the `ls` command to list available files and directories.
-
-## Zsh/Bash Error Messages
-
-**Description:**
-
-Zsh/Bash errors can occur due to syntax issues, missing commands, or incorrect usage.
-
-**Solution:**
-
-- Review the error message to identify the specific problem.
-- Check the syntax and ensure correct command usage.
-- Look up the command or function causing the error for proper usage.
-
-## zsh: command not found: [entered_command_line]
-
-**Description:**
-
-Command not found error can occur due to typo, incorrect path settings, or specific package or software not installed on your computer or directory.
-
-**Solution:**
-
-- Check the typo or syntax and ensure correct command usage.
-- Navigate to the correct directory to use command.
-- Confirm installation is finished successfully or reinstall specific package or software.
-
-## Command parameter is not specified/recognized
-
-**Description:**
-
-The command is valid for the active window but requires a parameter, or the parameter was incorrectly specified.
-
-**Solution:**
-
-- Check the typo or syntax and ensure correct command usage.
-- Navigate to the correct directory to use command.
+| **Error message**                                         | **Problem Cause**                                                                                                               | **Solution**                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wrong Path                                                | You try to access a folder or execute a command from an incorrect location.                                                     | Double-check the command syntax for accuracy. Type the `pwd` command and `ls` to verify your current folder. If you are in the wrong folder, navigate to the correct folder using the `cd` command.                                                                                                                                                                                                                    |
+| Invalid Syntax                                            | You have a typo in your command or missing part of command.                                                                     | If the error message specified the correction, type the corrected command. Otherwise, Look up the command or function causing the error for proper usage.                                                                                                                                                                                                                                                              |
+| zsh: command not found                                    | You have a typo, or you are in an incorrect folder, or a specific package or software not installed on your computer or folder. | Check the typo or syntax and ensure correct command usage. Navigate to the correct folder to use the command. Confirm installation is finished successfully or reinstall specific package or software.                                                                                                                                                                                                                 |
+| Bad option: Command parameter is not specified/recognized | You are required to type a parameter, or the parameter was incorrectly specified.                                               | Read the command again to check the typo or syntax and ensure correct command usage. If the terminal prompts the list of available parameters, type one of them following the command. Look up the command or function causing the error for proper usage.                                                                                                                                                             |
+| Operation not permitted                                   | You can not access the folders in your computer.                                                                                | Click the Apple menu on your left top screen. Go to the System Preferences. Click the Security & Privacy icon. Select the Privacy tab, then select Full Disk Access from the left side menu. Click the + button to add your terminal application with full disk access. Navigate to the Applications folder, and Utilities folder, and choose Terminal icon to give your Terminal Full Disk Access. Relaunch Terminal. |

@@ -9,7 +9,7 @@ This section will cover how to create a file and directory on your computer thro
 To create a file, you can use the `touch` command followed by the filename:
 
 ```
-touch [filen_ame]
+touch [file_name]
 ```
 
 To create a directory, you can use the `mkdir` command followed by the directory name:

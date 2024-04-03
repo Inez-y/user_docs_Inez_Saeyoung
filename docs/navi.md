@@ -13,10 +13,10 @@ To determine your current directory, use the `pwd` (print working directory) com
 
 ### Step 2: Introducing Navigation Commands
 
-To navigate directories, you'll primarily use the cd (change directory) command. Here's how it works:
+To navigate folder also known as directories, you will primarily use the cd (change directory) command. Here is how it works:
 
 ```
-cd [directory_name]
+cd [folder_name]
 ```
 
 Replace [directory_name] with the name of the directory you want to navigate to.
