@@ -25,8 +25,8 @@ Commands to be entered into the Terminal will be written in monospace.
 
 !!! note
 
-Actions that could potentially cause issues or data loss. If any further information is needed, refer [Apple Support page](https://support.apple.com/)
+    Actions that could potentially cause issues or data loss. If any further information is needed, refer [Apple Support page](https://support.apple.com/)
 
 !!! warning
 
-Actions that could have serious consequences if not followed correctly.
+    Actions that could have serious consequences if not followed correctly.
