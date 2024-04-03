@@ -1,6 +1,10 @@
-# Navigating the Terminal (macOS) for Beginners
+# How to navigate directory with Command Line on the Terminal
 
 ## How to Navigate Directories with Command Line
+
+## Overview
+
+This section will cover how to delete files and directories in your computer through the terminal.
 
 ### Step 1: Determining Your Current Location
 
@@ -31,3 +35,9 @@ To move into a directory named "Documents," type:
 ```
 cd Documents
 ```
+
+## Conclusion
+
+By the end of this section, you can perform following jobs:
+- Confirm your current working directory
+- Move to your desired directory

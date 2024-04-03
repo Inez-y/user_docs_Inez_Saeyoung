@@ -1,4 +1,4 @@
-# How To Delete Files
+# How to delete a File with Command Line on the Terminal
 
 ## Overview
 
@@ -75,3 +75,7 @@ Or
    ```
    Image here
    ```
+
+## Conclusion
+
+By the end of section, you will have deleted a text file on your computer.

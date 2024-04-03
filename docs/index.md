@@ -23,5 +23,5 @@ Commands to be entered into the Terminal will be written in monospace.
 
 ## Note: Additional resources or tips to enhance understanding.
 
-Caution: Actions that could potentially cause issues or data loss.
+Caution: Actions that could potentially cause issues or data loss.\
 Warning: Actions that could have serious consequences if not followed correctly.
