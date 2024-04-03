@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will cover how to create a file and directory on your computer through the terminal.
+This section will cover how to create a file and folder on your computer through the terminal.
 
 ## Create
 
@@ -14,10 +14,10 @@ This section will cover how to create a file and directory on your computer thro
     touch [file_name]
     ```
 
-    To create a directory, you can use the `mkdir` command followed by the directory name:
+    To create a folder, you can use the `mkdir` command followed by the folder name:
 
     ```
-    mkdir [directory_name]
+    mkdir [folder_name]
     ```
 
 2. Common Mistakes and Cautions
@@ -25,7 +25,7 @@ This section will cover how to create a file and directory on your computer thro
     Double-check the filename to avoid errors.
     Be cautious not to overwrite existing files unintentionally.
 
-3. Example of File and Directory Creation
+3. Example of File and Folder Creation
 
     To create a file named "example.txt," type:
 
@@ -33,7 +33,7 @@ This section will cover how to create a file and directory on your computer thro
     touch example.txt
     ```
 
-    To create a directory named "test_documents" type:
+    To create a folder named "test_documents" type:
 
     ```
     mkdir test_documents
@@ -41,4 +41,4 @@ This section will cover how to create a file and directory on your computer thro
 
 ## Conclusion
 
-Now you can navigate, create a file or directory on your computer through the command line on the terminal! :partying_face:
+Now you can navigate, create a file or folder on your computer through the command line on the terminal! :partying_face:

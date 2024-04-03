@@ -1,40 +1,43 @@
-# How to navigate directory with Command Line on the Terminal
+# How to navigate folders with Command Line on the Terminal
 
 ## Overview
 
-This section will cover how to check your current location, how to see the list of files and directories in your computer through the terminal.
+This section will cover how to check your current location, how to see the list of files and folders in your computer through the terminal.
 
 ## Navigating
 
 1. Determining Your Current Location
 
-   To determine your current directory, use the `pwd` (print working directory) command:
-
-   `bash`
-   `pwd`
+   Type `pwd` to determine your current folders also known as directory. `pwd` represents "print working directory" in this command.
 
 2. Introducing Navigation Commands
 
-   To navigate folder also known as directories, you will primarily use the cd (change directory) command. Here is how it works:
+   Type following code to navigate folder. `cd` represents "change directory" in this command.
 
    ```
    cd [folder_name]
    ```
 
-   Replace [directory_name] with the name of the directory you want to navigate to.
+   Replace [folder_name] with the name of the folder you want to navigate to.
 
-!! note
+3. Go into the folder and go back to the parent folder
 
-    Ensure you type directory names correctly, including proper capitalization.
-    Be cautious when using relative paths (e.g., cd .. to move up one directory), as it can lead to unintended movements.
-
-3. Examples of Navigation
-
-   To move into a directory named "Documents," type:
+   Type following code to move into a folder named "Documents"
 
    ```
    cd Documents
    ```
+
+   Type following code to move out to a parent folder which means higher hierarchy folder.
+
+   ```
+   cd ..
+   ```
+
+!! note
+
+    Ensure you type folder names correctly, including proper capitalization.
+    Be cautious when using relative paths (e.g., cd .. to move up one folder), as it can lead to unintended movements.
 
 ## Conclusion
 
