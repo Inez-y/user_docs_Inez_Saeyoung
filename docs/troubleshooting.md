@@ -1,8 +1,8 @@
 # Common Troubleshooting in Terminal
 
-## Error Messages
+## Zsh/Bash Error Messages
 
-### Zsh/Bash Errors
+**Description:**
 
 Zsh/Bash errors can occur due to syntax issues, missing commands, or incorrect usage.
 
@@ -12,9 +12,21 @@ Zsh/Bash errors can occur due to syntax issues, missing commands, or incorrect u
 - Check the syntax and ensure correct command usage.
 - Look up the command or function causing the error for proper usage.
 
+## zsh: command not found: [entered_command_line]
+
+**Description:**
+
+Command not found error can occur due to typo, incorrect path settings, or specific package or software not installed on your computer or directory.
+
+**Solution:**
+
+- Check the typo or syntax and ensure correct command usage.
+- Navigate to the correct directory to use command.
+- Confirm installation is finished successfully or reinstall specific package or software.
+
 ## Wrong Path
 
-### Description:
+**Description:**
 
 Wrong path errors occur when trying to access a directory or execute a command from an incorrect location.
 
@@ -26,7 +38,7 @@ Wrong path errors occur when trying to access a directory or execute a command f
 
 ## Spelling Check
 
-### Description:
+**Description:**
 
 Spelling errors can lead to command not found or file not found errors in the terminal.
 
