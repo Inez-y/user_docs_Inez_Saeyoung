@@ -34,5 +34,9 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 copyright: 2024 Saeyoung and Inez @ Comm 2216

@@ -14,8 +14,8 @@ These instructions are aimed at new Mac users who are unfamiliar with using the 
 
 Before following these instructions, users should have:
 
-A Mac computer
-Basic familiarity with the Mac operating system
+- A Mac computer
+- Basic familiarity with the Mac operating system
 
 ## Typographical Conventions
 
@@ -23,5 +23,10 @@ Commands to be entered into the Terminal will be written in monospace.
 
 ## Note: Additional resources or tips to enhance understanding.
 
-Caution: Actions that could potentially cause issues or data loss.\
-Warning: Actions that could have serious consequences if not followed correctly.
+!!! note
+
+Actions that could potentially cause issues or data loss. If any further information is needed, refer [Apple Support page](https://support.apple.com/)
+
+!!! warning
+
+Actions that could have serious consequences if not followed correctly.
