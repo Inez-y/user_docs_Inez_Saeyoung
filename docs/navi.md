@@ -2,45 +2,78 @@
 
 ## Overview
 
-This section will cover how to check your current location, how to see the list of files and folders in your computer through the terminal.
+This section we will check your current located folder, and the list of files and folders in the specific folder through the Terminal. Then, we will learn two ways of folder path expression. Finally, we will navigate to the destination folder, and open the file.
 
-## Navigating
+### Navigate to a file and folder
 
-1. Determining Your Current Location
+1. Type `pwd` in your terminal window to see where is your current location
 
-    Type `pwd` to determine your current folders also known as directory.  `pwd` represents "print working directory" in this command.
+    `pwd` represents "print working directory" in this command. With this command you can see absolute path of your current located folder which means your location from the very first root folder of your computer. The result of `pwd` will be printed in the Terminal similar with this expression: `/Users/[user_name]` or `/Users/[user_name]/Documents/term2`
 
 
-2. Introducing Navigation Commands
+2. Type `ls` to see what folders and files in your current located folder.
 
-    Type following code to navigate folder. `cd` represents "change directory" in this command.
-
-    ```
-    cd [folder_name]
-    ```
-
-    Replace [folder_name] with the name of the folder you want to navigate to.
-
-3. Go into the folder and go back to the parent folder
-
-    Type following code to move into a folder named "Documents"
+    The result of `ls` will be printed in the Terminal similar with below.
 
     ```
-    cd Documents
+    Applications		 	   test_file.txt
+    Desktop			           Documents
+    Downloads
     ```
 
-    Type following code to move out to a parent folder which means higher hierarchy folder.
+
+3. Type following code to go to Documents folder
+
+    `cd` represents "change directory" in this command. Replace [user_name] with the name of the main disk of your computer. You can find this name in Startup Disk menu at System Preferences.
 
     ```
-    cd ..
+    cd /Users/[user_name]/Documents
     ```
 
+
+4. Type `cd ..` to move out to a parent folder which means higher hierarchy folder
+   
+    One period (.) means your current located folder. Two period (..) means one level higher folder than your current located folder. This is relative path. We can also use absolute path which we used in step 1 to change your current folder. You can also type this. 
+    ```
+    cd /Users/[user_name]/Downloads
+    ```
 
 !!! note
 
     Ensure you type folder names correctly, including proper capitalization.
     Be cautious when using relative paths (e.g., cd .. to move up one folder), as it can lead to unintended movements.
 
+### Open a file and folder
+
+5. Type `open .` to open your current located folder
+   
+    When you open a folder, you can use both relative path and absolute path. It means you can use both command line below.
+    ```
+    open .
+    ```
+
+    ```
+    open /Users/[user_name]/Downloads
+    ```
+
+
+6. Type `open [file_name.extension]` to pen a file
+
+    When you open a file, you need to specify which file you want to open. Also, you need to be located in a same folder of the file is in. For example, if you want to open `agenda_note_team01.txt` file in `Downloads` folder, your action will be:
+
+    ```
+    cd /Users/[user_name]/Downloads
+    open agenda_note_team01.txt
+    ```
+
+!!! note
+
+    When you try to open a file, do not forget to type a extension also. You should type file name, period, extension.
+
+!!! tip
+
+    If you want to open a Visual Studio Code in a project folder, change your current located folder to a your project folder in Terminal. Type `code .`, then Visual studio Code will be opened in your project folder.
+
 ## Conclusion
 
-Now you can navigate your location on your computer through the command line on the terminal! :partying_face:
+In this section covered how to check your current located folder, and how to see the list of files and folders in your computer through the Terminal. Then, navigated to the destination folder, executed two ways of open it. :partying_face:

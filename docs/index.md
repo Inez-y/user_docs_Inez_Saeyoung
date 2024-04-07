@@ -1,10 +1,8 @@
-visit the github based deployed [Page](https://inez-y.github.io/user_docs_Inez_Saeyoung/).
-
 # Terminal Basics for New Mac Users
 
 ## Purpose
 
-This guide aims to introduce new Mac users with no prior computer background to the Terminal application. Terminal allows users to navigate the file system, create, delete files, and troubleshoot common issues.
+This guide aims to introduce new Mac users with no prior computer background to the Terminal application. Terminal allows users to navigate the file and folder system, open, create, delete files, and troubleshoot common issues.
 
 ## Intended Audience
 
@@ -12,21 +10,20 @@ These instructions are aimed at new Mac users who are unfamiliar with using the 
 
 ## Prerequisites
 
-Before following these instructions, users should have:
+Before following these instructions, users should have a Mac computer with Mac OS.
 
-- A Mac computer
-- Basic familiarity with the Mac operating system
+## Notes and warning messages
 
-## Typographical Conventions
-
-Commands to be entered into the Terminal will be written in monospace.
-
-## Note: Additional resources or tips to enhance understanding.
+Throughout the documentation, additional resources or tips to enhance understanding will be appeared in the message blocks.
 
 !!! note
 
-    Actions that could potentially cause issues or data loss. If any further information is needed, refer [Apple Support page](https://support.apple.com/)
+    Indicates actions that could potentially cause issues or data loss.
 
 !!! warning
 
-    Actions that could have serious consequences if not followed correctly.
+    Indicates actions that could have serious consequences if not followed correctly.
+
+!!! tip
+
+    Indicates further tips that can be helpful.
