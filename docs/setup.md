@@ -2,7 +2,7 @@
 
 ## Visual Impairment Settings
 
-### Step 1: Adjusting Text Size and Font
+### Adjusting Text Size and Font
 
 1. Open Terminal.
 2. Go to `Terminal` > `Settings` > `Profiles`.
@@ -12,7 +12,7 @@
 6. Click on "Change..." under "Font" to choose a font that is easier to read for you.
 7. Confirm your changes by clicking the "Close" button.
 
-### Step 2: Using High Contrast Themes
+### Using High Contrast Themes
 
 1. Follow steps 1-3 from the previous section.
 2. Click on the `Window` tab.
@@ -22,7 +22,7 @@
 
 ## Personal Taste Settings
 
-### Step 1: Customizing Colors and Background
+### Customizing Colors and Background
 
 1. Open Terminal.
 2. Go to `Terminal` > `Preferences` > `Profiles`.
@@ -32,7 +32,7 @@
 6. Experiment with different color schemes until you find the one that suits your taste.
 7. Click "Close" to save your changes.
 
-### Step 2: Configuring Keyboard Shortcuts
+### Configuring Keyboard Shortcuts
 
 1. Open Terminal.
 2. Go to `Terminal` > `Preferences` > `Profiles`.
@@ -41,7 +41,7 @@
 5. Assign shortcuts according to your preference by clicking on the action and entering the desired shortcut.
 6. Click "Close" to save your changes.
 
-### Step 3: Adjusting Window Appearance
+### Adjusting Window Appearance
 
 1. Open Terminal.
 2. Go to `Terminal` > `Preferences` > `Profiles`.
