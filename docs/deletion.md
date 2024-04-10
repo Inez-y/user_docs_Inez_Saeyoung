@@ -11,9 +11,17 @@ Our goal of this section is go to a destination folder, and delete a folder and 
 
 ### Navigate to Documents folder 
 
-1. Type `cd /Users/[user_name]/Documents` on the Terminal to navigate `Documents` folder.
+1. Type follow command on the Terminal to navigate `Documents` folder.
+
+     ```
+     cd /Users/[user_name]/Documents
+     ```
 
 2. Type `pwd` to confirm your current location. If you are in the `Documents` folder, proceed to the next step.
+
+     ```
+     pwd
+     ```
 
 
 ### Delete a folder and file
@@ -29,6 +37,10 @@ Our goal of this section is go to a destination folder, and delete a folder and 
 
 2. Type `rm test_file.txt` to delete a file.
 
+     ```
+     rm test_file.txt
+     ```
+
     `rm` stands for `remove` in this command. After `rm` command line you should specify which file you want to delete. You can use both relative path and absolute path.
 
     a. Relative path by using file name and extension: `rm test_file.txt`
@@ -37,6 +49,10 @@ Our goal of this section is go to a destination folder, and delete a folder and 
 
 3. Type `rmdir test_folder` to delete a folder.
 
+     ```
+     rmdir test_folder
+     ``` 
+
     `rmdir` stands for `remove folder` in this command. Same with a file, you can use both relative path and absolute path. 
 
     a. Relative path by using file name and extension: `rmdir test_folder`
@@ -44,6 +60,9 @@ Our goal of this section is go to a destination folder, and delete a folder and 
     b. Absolute path by writing from a root file: `rm /Users/[user_name]/Documents/user_folder`
 
 4. Type `ls` again to confirm the deletion of file and folder.
+     ```
+     ls
+     ```
 
 
 ## Conclusion

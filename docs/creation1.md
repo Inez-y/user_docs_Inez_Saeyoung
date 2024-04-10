@@ -6,9 +6,16 @@ Our goal of this section is go to a destination folder, and create a folder and 
 
 ### Navigate to Documents folder 
 
-1. Type `cd /Users/[user_name]/Documents` to navigate `Documents` folder.
+1. Type follow command to navigate `Documents` folder.
+
+     ```
+     cd /Users/[user_name]/Documents
+     ``` 
 
 2. Type `pwd` to confirm your current location. If you are in the `Documents` folder, proceed to the next step.
+     ```
+     pwd
+     ```
 
 
 ### Create a folder and file
@@ -21,6 +28,10 @@ Our goal of this section is go to a destination folder, and create a folder and 
 
 2. Type `ls` to see `new_folder` or the title you have entered is created. If you can see a new folder is created, proceed to the next step.
 
+     ```
+     ls
+     ```
+
 
 3. Type following command to create a file. Replace `new_file` to make a file of your own title. 
 
@@ -29,6 +40,10 @@ Our goal of this section is go to a destination folder, and create a folder and 
     ```
 
 4. Type `ls` to see `new_file` or the title you have entered is created. 
+
+     ```
+     ls
+     ```
 
 !!! note
 
