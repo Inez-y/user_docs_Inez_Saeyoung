@@ -1,55 +1,51 @@
-# How to delete a File with Command Line on the Terminal
+# Deletion
 
 ## Overview
 
-This section will cover how to delete a file and folder in your computer through the terminal.
+Our goal of this section is go to a destination folder, and delete a folder and a file. To do that, first, navigate to a destination folder. Second, execute deletion command for a file and for a folder separately through the Terminal. Finally, we will check the deletion of the folder and file.
 
 !!! warning
 
     Be careful. Deletion through the command line is permanent. Deleted files can not be restored.
 
-## Delete
 
-1. Check where is your current location `pwd`
+### Navigate to Documents folder 
 
-    Confirming your current location in the terminal is an always good start. You can check your location by typing command line `pwd` in your terminal screen. The terminal will show you similar result with below.
+1. Type `cd /Users/[user_name]/Documents` on the Terminal to navigate `Documents` folder.
 
-    ```
-    /Users/[PC_main_folder]
-    ```
+2. Type `pwd` to confirm your current location. If you are in the `Documents` folder, proceed to the next step.
 
-2. See the list of files or folders in the current level `ls`
 
-    Check what you have in the current level by typing command line `ls` in your terminal screen. The terminal will show you similar result with below.
+### Delete a folder and file
 
-    ```
-    Applications		 	   test_file.txt
-    Desktop			           Documents
-    ```
+1. Type `ls` to see the list of files or folders in your current location. 
 
-3. Delete the file with `rm`
-
-    `rm` stands for remove in this command. After `rm` command line you can put file name including extension or absolute path.
+    The result of `ls` will be printed in the Terminal similar with below.
 
     ```
-    rm test_file.txt
+    test_folder		 	   test_file.txt
+    term2			       2216_agenda.pdf
     ```
 
-4. Delete the folder with `rmdir`
+2. Type `rm test_file.txt` to delete a file.
 
-    `rmdir` stands for remove folder in this command.
+    `rm` stands for `remove` in this command. After `rm` command line you should specify which file you want to delete. You can use both relative path and absolute path.
 
-    ```
-    rmdir test_folder
-    ```
+    a. Relative path by using file name and extension: `rm test_file.txt`
 
-5. Confirm the deletion
+    b. Absolute path by writing from a root file: `rm /Users/[user_name]/Documents/test_file.txt`
 
-    You can check whether the deletion is executed or not via terminal or via Graphic User Interface(GUI) at your computer.
+3. Type `rmdir test_folder` to delete a folder.
 
-    - Type `ls` at the parent folder which means higher hierarchy.
-    - Go to the folder at your computer screen through Finder.
+    `rmdir` stands for `remove folder` in this command. Same with a file, you can use both relative path and absolute path. 
+
+    a. Relative path by using file name and extension: `rmdir test_folder`
+
+    b. Absolute path by writing from a root file: `rm /Users/[user_name]/Documents/user_folder`
+
+4. Type `ls` again to confirm the deletion of file and folder.
+
 
 ## Conclusion
 
-Now you can navigate, create, and delete a file or folder on your computer through the command line on the terminal! :partying_face: This is very basic jobs you can do through the command line. You can explore further on [Apple macOS command line](https://ss64.com/mac/)
+Now you can navigate, create, and delete a file or a folder through the command line on the terminal! :partying_face: These are very basic jobs you can do through the command line. You can explore further on [Apple macOS command line](https://ss64.com/mac/)

@@ -1,58 +1,41 @@
-# How to create a File with Command Line on the Terminal
+# Creation
 
 ## Overview
 
-This section will cover how to create a file and folder on your computer through the terminal.
+Our goal of this section is go to a destination folder, and create a folder and a file. To do so, first, go to a destination folder. Second, create a folder, and a file through the terminal. Finally, we will see how to check the folder and file is made.
 
-## Create
+### Navigate to Documents folder 
 
-1. Introducing File Creation Command
+1. Type `cd /Users/[user_name]/Documents` to navigate `Documents` folder.
 
-    To create a file, you can use the `touch` command followed by the filename:
+2. Type `pwd` to confirm your current location. If you are in the `Documents` folder, proceed to the next step.
 
-    ```
-    touch [file_name]
-    ```
 
-    To create a folder, you can use the `mkdir` command followed by the folder name:
+### Create a folder and file
 
-    ```
-    mkdir [folder_name]
-    ```
+1. Type following command to create a folder. Replace `new_folder` to make a folder of your own title. `mkdir` represents `make directory`.
 
-2. Common Mistakes and Cautions
+     ```
+     mkdir new_folder
+     ```
 
-    Double-check the filename to avoid errors.
-    Be cautious not to overwrite existing files unintentionally.
+2. Type `ls` to see `new_folder` or the title you have entered is created. If you can see a new folder is created, proceed to the next step.
 
-3. Example of File and Folder Creation
 
-    To create a file named "example.txt," type:
+3. Type following command to create a file. Replace `new_file` to make a file of your own title. 
 
     ```
-    touch example.txt
+    touch new_file.txt
     ```
 
-    To create a folder named "test_documents" type:
-
-    ```
-    mkdir test_documents
-    ```
-
-
-5. Type `cd ..` to move out to a parent folder which means higher hierarchy folder
-   
-    One period (.) means your current located folder. Two period (..) means one level higher folder than your current located folder. This is relative path. We can also use absolute path which we used in step 1 to change your current folder. You can also type this. 
-    ```
-    cd /Users/[user_name]/Downloads
-    ```
+4. Type `ls` to see `new_file` or the title you have entered is created. 
 
 !!! note
 
-    Ensure you type folder names correctly, including proper capitalization.
-    Be cautious when using relative paths (e.g., cd .. to move up one folder), as it can lead to unintended movements.
+    Ensure you put extension to a new file name. For example, `file_1.txt` or `file_2.docx`
+
 
 
 ## Conclusion
 
-Now you can navigate, create a file or folder on your computer through the command line on the terminal! :partying_face:
+In this section, we practiced navigate to a folder via absolute path, and then create a folder and file through the command line. :partying_face:
