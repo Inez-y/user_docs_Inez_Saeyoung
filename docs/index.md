@@ -16,9 +16,9 @@ Before following the instructions, users should have a Mac computer with Mac OS.
 
 1. Command line in the code snippets are able to copy. However, if a file name or folder name is written in square bracket, it means you can change a part in square brackets. And also it can be printed differently on the computer screen.
 
-   ```
-   cd /Users/[user_name]/Documents
-   ```
+    ```
+    cd /Users/[user_name]/Documents
+    ```
 
 2. File names, folder names, buttons that you need to click for further proceed will be formatted like: `Window`, `example_folder`
 
